@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-import { leftButton, rightButton } from "../js/dom";
+import { leftButton, rightButton } from "./dom";
 import { weather } from "../index";
 import { formatInTimeZone } from "date-fns-tz";
 import isAfter from "date-fns/isAfter";

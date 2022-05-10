@@ -1,12 +1,8 @@
 /* eslint-disable */
 
-import {
-  isHourly,
-  setIsHourly,
-  weather,
-  getWeather,
-  sectionDisplayWeather,
-} from "../index.js";
+import { weather, isHourly, setIsHourly } from "../index.js";
+
+import { getWeather, sectionDisplayWeather } from "./weather.js";
 
 const location = document.querySelector("#location");
 const date = document.querySelector("#date");
