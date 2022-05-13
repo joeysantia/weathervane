@@ -52,7 +52,7 @@ async function getCity(cityName) {
 async function fetchWeather([lat, lon]) {
   try {
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&appid=7a607fb85dc42ddc447af09a7ffec8fa`
+      `http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&appid=7a607fb85dc42ddc447af09a7ffec8fa`
     );
     const json = await response.json();
     return json;
