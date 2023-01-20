@@ -4,9 +4,6 @@ This is a weather app, which fetches information from the OpenWeatherMap One Cal
 
 Live site: https://joeysantia.github.io/weather-app/
 
-FURTHER CHANGES
-1. Revisit modules and improve JS organization 
-2. Add a "loading" component while the API data is being fetched 
-3. Allow each card to display more information in the main display when clicked
+
 
 

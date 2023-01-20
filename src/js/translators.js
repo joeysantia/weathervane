@@ -66,6 +66,7 @@ function windCardinal(windDirection) {
   return windDirection;
 }
 
+//generalize this to be setCSS
 function setIcon(forecast, icon) {
   let src;
 

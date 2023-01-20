@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 import "./style.css";
+import "./js/eventListeners"
 import { getWeather } from "./js/weather";
 
 //revisit - see if there's a way to solve this without global variables;
