@@ -4,6 +4,19 @@ This is a weather app, which fetches information from the OpenWeatherMap One Cal
 
 Live site: https://joeysantia.github.io/weather-app/
 
+Image Credits:
+* kosonicon
+ - Weather Pack: https://www.flaticon.com/packs/weather-384
+* Rose Meriam
+ - Background Art: https://www.instagram.com/rosemakes
+* Smashicon
+ - Essential Compilation Pack: https://www.flaticon.com/packs/essential-compilation
+* Roundicons
+ - Pointers pack: https://www.flaticon.com/packs/pointers-3
+
+
+
+
 
 
 
