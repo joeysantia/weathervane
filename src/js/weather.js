@@ -39,7 +39,7 @@ import { weather, setWeather, isHourly, setIsHourly } from "../index";
 async function getCity(cityName) {
   try {
     const response = await fetch(
-      `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=7a607fb85dc42ddc447af09a7ffec8fa`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${process.env.API_KEY}`
     );
     const json = await response.json();
     return [json[0].lat, json[0].lon];
@@ -52,7 +52,7 @@ async function getCity(cityName) {
 async function fetchWeather([lat, lon]) {
   try {
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&appid=7a607fb85dc42ddc447af09a7ffec8fa`
+      `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&appid=${process.env.API_KEY}`
     );
     const json = await response.json();
     return json;
