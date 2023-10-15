@@ -2,7 +2,7 @@
 
 This is a weather app, which fetches information from the OpenWeatherMap One Call API. This project uses asynchronous Javascript functions to interact with the API and to validate forms (i.e. fetching errors are displayed as form validation errors). 
 
-## Live site: https://joeysantia.github.io/weather-app/
+## Live site: https://joeysantia.github.io/weathervane/dist/index.html
 
 ## Further Changes
 1. Customize the font color and spacing to better complement background art.
